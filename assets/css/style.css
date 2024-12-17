@@ -1,0 +1,234 @@
+:root {
+    --primary-color: #FFC0CB;
+    --secondary-color: #FFB6C1;
+    --accent-color: #FF69B4;
+    --text-color: #333333;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    color: var(--text-color);
+}
+
+.navbar {
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.btn-primary {
+    background-color: var(--accent-color);
+    border-color: var(--accent-color);
+}
+
+.btn-primary:hover {
+    background-color: var(--secondary-color);
+    border-color: var(--secondary-color);
+}
+
+.card {
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    transition: transform 0.3s ease;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+}
+
+.product-image {
+    height: 200px;
+    object-fit: cover;
+    border-radius: 10px 10px 0 0;
+}
+
+.footer {
+    background-color: var(--primary-color);
+    padding: 2rem 0;
+    margin-top: 3rem;
+}
+
+/* Dashboard Styles */
+.dashboard-sidebar {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.dashboard-sidebar .list-group-item {
+    border: none;
+    padding: 0.8rem 1rem;
+}
+
+.dashboard-sidebar .list-group-item:hover {
+    background-color: var(--primary-color);
+    color: #fff;
+}
+
+.dashboard-sidebar .list-group-item.active {
+    background-color: var(--accent-color);
+    border-color: var(--accent-color);
+}
+
+.dashboard-card {
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    transition: transform 0.3s ease;
+}
+
+.dashboard-card:hover {
+    transform: translateY(-5px);
+}
+
+.status-badge {
+    padding: 0.5rem 1rem;
+    border-radius: 20px;
+    font-weight: 500;
+}
+
+.table th {
+    font-weight: 600;
+    color: var(--text-color);
+}
+
+.table td {
+    vertical-align: middle;
+}
+
+.profile-image {
+    border: 3px solid var(--primary-color);
+    padding: 3px;
+}
+
+.btn-outline-primary {
+    color: var(--accent-color);
+    border-color: var(--accent-color);
+}
+
+.btn-outline-primary:hover {
+    background-color: var(--accent-color);
+    border-color: var(--accent-color);
+    color: #fff;
+}
+
+/* Product Page Styles */
+.product-image {
+    height: 200px;
+    object-fit: cover;
+}
+
+.card {
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+.form-label {
+    font-weight: 500;
+}
+
+.pagination .page-link {
+    color: var(--accent-color);
+}
+
+.pagination .page-item.active .page-link {
+    background-color: var(--accent-color);
+    border-color: var(--accent-color);
+    color: white;
+}
+
+.add-to-cart {
+    transition: all 0.3s ease;
+}
+
+.add-to-cart:hover {
+    transform: scale(1.05);
+}
+
+.price {
+    color: var(--accent-color);
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+.brand-name {
+    color: #666;
+    font-size: 0.9rem;
+}
+
+/* Login & Register Styles */
+.card {
+    border: none;
+    border-radius: 15px;
+}
+
+.card-body {
+    padding: 2rem;
+}
+
+.form-control {
+    border-radius: 8px;
+    padding: 0.75rem 1rem;
+}
+
+.form-control:focus {
+    border-color: var(--accent-color);
+    box-shadow: 0 0 0 0.2rem rgba(255, 105, 180, 0.25);
+}
+
+.btn-primary {
+    padding: 0.75rem 1rem;
+    font-weight: 500;
+    border-radius: 8px;
+}
+
+.alert {
+    border-radius: 8px;
+}
+
+.form-check-input:checked {
+    background-color: var(--accent-color);
+    border-color: var(--accent-color);
+}
+
+.form-text {
+    color: #666;
+    font-size: 0.875rem;
+}
+
+/* Cart Styles */
+.quantity-input {
+    width: 60px;
+    text-align: center;
+}
+
+.quantity-input::-webkit-inner-spin-button,
+.quantity-input::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+.cart-item-image {
+    max-width: 100px;
+    height: auto;
+}
+
+.remove-item {
+    color: var(--accent-color);
+    transition: color 0.3s ease;
+}
+
+.remove-item:hover {
+    color: #dc3545;
+}
+
+.cart-summary {
+    position: sticky;
+    top: 20px;
+}
+
+.update-quantity {
+    min-width: 40px;
+} 
